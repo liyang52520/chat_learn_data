@@ -1,0 +1,22 @@
+{
+  "dialogId": "dialog_aa022b74-3b06-422c-ad2e-fb82beea9b3c",
+  "articleId": "aa022b74-3b06-422c-ad2e-fb82beea9b3c",
+  "rounds": [
+    {
+      "roundId": "41b23d29-7ac2-41e3-80ae-9d7f794dd705",
+      "index": 1,
+      "userMessage": "hi",
+      "aiMessage": "关于\"hi\"：\n\n这是一个很好的问题。在实际应用中需要考虑：\n\n- **理解问题本质** - 明确核心诉求\n- **收集背景信息** - 了解相关上下文\n- **制定方案** - 提出可行的解决路径\n\n> ⚠️ 提示：在设置页配置 DeepSeek API Key 以获得真实 AI 回复。",
+      "isMaterial": true,
+      "createdAt": "2026-07-17T10:07:19.437Z"
+    },
+    {
+      "roundId": "11ae0dbb-4c18-417f-a1a3-f385ac57cdeb",
+      "index": 2,
+      "userMessage": "hi",
+      "aiMessage": "关于\"hi\"：\n\n这是一个很好的问题。在实际应用中需要考虑：\n\n- **理解问题本质** - 明确核心诉求\n- **收集背景信息** - 了解相关上下文\n- **制定方案** - 提出可行的解决路径\n\n> ⚠️ 提示：在设置页配置 DeepSeek API Key 以获得真实 AI 回复。",
+      "isMaterial": true,
+      "createdAt": "2026-07-17T10:07:27.067Z"
+    }
+  ]
+}
