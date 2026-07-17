@@ -1,0 +1,14 @@
+{
+  "dialogId": "dialog_f357a9b9-ff53-4d4b-8c2f-19a13458e27d",
+  "articleId": "f357a9b9-ff53-4d4b-8c2f-19a13458e27d",
+  "rounds": [
+    {
+      "roundId": "32dabe0e-ba90-4d5c-beb0-aa96ff935d88",
+      "index": 1,
+      "userMessage": "tomcat是什么",
+      "aiMessage": "Tomcat，全称Apache Tomcat，是**Apache软件基金会**开发的一款开源的、轻量级的**Web服务器**。\n\n简单来说，它是一个“小盒子”，专门用来运行Java编写的网站程序。它最核心的功能是**实现了Java Servlet和JavaServer Pages（JSP）技术规范**。\n\n为了让你更直观地理解，把它比作一个“Java Web应用的运行环境”：\n\n1.  **一个Web服务器**：它能接收用户通过浏览器发来的HTTP（比如访问一个网页）。\n2.  **一个Servlet容器**：当请求需要访问Java程序时（比如登录验证、查询数据库），Tomcat会调用相应的Java程序（Servlet或JSP）来处理并将结果（比如一个HTML页面）返回给浏览器。\n\n### 关键特性\n\n-   **开源免费**：任何人都可以免费下载、使用和修改它的源代码。\n-   **轻量级**：相比于企业级的Java EE应用服务器（如WildFly、WebLogic、WebSphere），Tomcat非常轻便，启动快，资源占用少，非常适合中小型项目和开发测试环境。\n-   **核心技术**：\n    -   **Catalina**：这是Tomcat的核心，是一个Servlet容器。\n    -   **Jasper**：JSP引擎，负责将JSP文件（带Java代码的网页模板）转换成Java Servlet代码，再编译执行。\n    -   **Cote**：Tomcat的HTTP连接器，负责处理网络通信和HTTP协议解析。\n-  独立运行**：它可以作为独立的Web服务器运行，不需要依赖其他服务器（如Apache HTTP Server或Nginx）。当然，在生产环境中，它也经常和Nginx或Apache配合使用，由前者处理静态资源和负载均衡，Tomcat专门处理Java动态请求。\n\n### 你能用它做什么？\n\n-   **部署Java Web应用**：这是最主要用途。比如，用Spring Boot、Spring MVC、Struts2等框架开发的JSP/Servlet项目，最终都是以WAR包形式部署到Tom上运行的。\n-   **学习Java Web开发**：对于初学者来说，Tomcat是最佳入门服务器，配置简单，文档丰富。\n-   **运行一些特定的Java应用**：如Jenkins（持续集成工具）、SonarQube（质量检测平台）等，它们本身就内嵌了Tomcat或需要部署在Tomcat上。\n\n### 和其他服务器的区别\n\n-   **vs. Apache HTTP Server、Nginx**：是静态Web服务器，主要处理HTML、图片、CSS等静态文件，效率极高。Tomcat虽然也能处理静态文件，但核心是处理动态Java内容。所以，常见的生产架构是：**Nginx处理静态请求 + 反向代理Tomcat处理动态Java请求**。\n-   **vs. WildFly、WebLogic**：这些是完整的**Java EE**（企业版）应用服务器。功能极其强大，支持EJB（企业级JavaBean）、JMS（Java消息服务）等复杂的企业级特性。Tomcat则专注于Servlet/JSP规范，不包含这些企业级功能，因此更为轻量。\n\n### 总结\n\n| 特性 | 说明 |\n| :--- :--- |\n| **** | 开源、轻量级的Servlet/JSP容器 + Web服务器 |\n| **主要功能** | 运行Java Web应用（Servlet、SP） |\n| **适用场景** | 型Web应用、开发测试环境、学习Java Web |\n| **优点** | 免费、轻量、、稳定、文档好 |\n| **核心规范** | Java Servlet、JavaServer Pages (JSP) |\n\n**一句话总结**：Tomcat是Java Web开发中最基础、最常用的运行环境，它就像一个“Java网站运行器”，让你的Java代码能够被用户通过浏览器访问到。",
+      "isMaterial": true,
+      "createdAt": "2026-07-17T07:02:39.112Z"
+    }
+  ]
+}
