@@ -1,0 +1,14 @@
+{
+  "dialogId": "dialog_98c9c842-1de4-4d0a-81f0-64784339728e",
+  "articleId": "98c9c842-1de4-4d0a-81f0-64784339728e",
+  "rounds": [
+    {
+      "roundId": "93c9acd5-203f-468d-95c4-c97c1e810301",
+      "index": 1,
+      "userMessage": "hi",
+      "aiMessage": "关于\"hi\"：\n\n这是一个很好的问题。在实际应用中需要考虑：\n\n- **理解问题本质** - 明确核心诉求\n- **收集背景信息** - 了解相关上下文\n- **制定方案** - 提出可行的解决路径\n\n> ⚠️ 提示：在设置页配置 DeepSeek API Key 以获得真实 AI 回复。",
+      "isMaterial": true,
+      "createdAt": "2026-07-19T05:06:21.875Z"
+    }
+  ]
+}
